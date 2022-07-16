@@ -1,0 +1,441 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %}
+
+{% block body %}
+
+<div class="container-fluid px-0">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/img1.jpg" style="height: 650px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: #527984d4; border-radius: 50px;">
+          <h5>This <b style="color: yellowgreen;">Hakka-Noodles</b> is very <b style="color: red;">SPICY</b> and <b
+              style="color: red;">YUMMY</b></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img2.jpg" style="height: 650px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: #527984d4; border-radius: 50px;">
+          <h5>This is very spicy of <b style="color: red;">Biryani</b> and <b style="color: red;">Chicken Rice</b> </h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img3.jpg" style="height: 650px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: #527984d4; border-radius: 50px;">
+          <h5>This is <b style="color: red;">VEG-Schewan</b> and <b style="color: red;">Fried Rice</b></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img4.jpg" style="height: 650px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: #527984d4; border-radius: 50px;">
+          <h5>This is Full-Plate <b style="color: red;">Chicken</b> and <b style="color: red;">Fried Rice</b></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img13.jpg" style="height: 650px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: #527984d4; border-radius: 50px;">
+          <h5>This is with Schewan <b style="color: red;">Small-piece-Chicken</b> and <b style="color: red;">Fried
+              Rice</b></h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img20.JPG" style="height: 650px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="background-color: #527984d4; border-radius: 50px;">
+          <h5>This is <b style="color: red;">Lollipop</b> with <b style="color: red;">Schewan and Onion lemon</b></h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<div class="container my-3">
+  <h1 class="my2 text-center" style="color: orchid;">Select from a range of Chineses</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img10.jpg" alt="">
+        <div class="card-body">
+          <p class="card-text">This is very yummy and tasty rice with using fresh and limited material in our shop</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img12.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">It is also very spicy and tasty rice with type of chinese food and mixing with tomato
+            also. You can first eat then tell.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img11.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is a full triple rice and noodles with schewan soup. It is very famous receip my
+            shop and you can also hurry up buy now easily. </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img9.png" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">It is a full spicy Chicken fried rice with the schewan. If it is your favourite disk then
+            order now.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img3.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is a very famous Veg schezwan rice with our canada.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img7.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is a full tasty and spicy egg fried noodles with the soup in our shop.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img6.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is a full spicy and tasty rice and soup with garlic. And this is famous in our
+            odisha site places.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img5.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is full Triple Chicken schezwan egg fried rice with half hot chicken soup. Its not a
+            more expensive. You can easily buy in your budgets.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img14.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">It is a only veg soup with full hot and tasty also spicy soup with the mixing of some
+            noodles.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img18.png" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is full plate of Lollipops and with mixing of garlic. It is very spicy and full
+            tasty lollipops with gravy souces.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img19.jpg" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is also tasty and spicy Lollipops without mixing of souce and schezwan. And you can
+            get chance to taste the any veg and Non-veg full spicy and tasty receips.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img20.JPG" style="height: 290px;" alt="">
+        <div class="card-body">
+          <p class="card-text">This is one way of tasty and spicy Lollipops. It is mixing of souce,lemon and coriander
+            also. First taste atleast one receip then tell. And i am sure you loved it. </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary"
+                style="border-color: darkgreen; border-width: 3px;">Buy</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+
+
+<footer class="ftco-footer ftco-bg-dark ftco-section" style="background-color: rgb(236, 165, 103);">
+
+<div class="section border-top  my-5">
+  <div class="container" style="margin-left: 2rem;">
+    <div class="newsletter-section">
+      
+        <div class="align-centre">
+      
+
+          <div class="newsletter-section__text my-5">
+            
+              <h2>Subscribe to our Home &amp; Beyond Newsletter</h2>
+            
+            
+              <div class="rte"><p>Learn about our artisans' world travels, get sneak peaks into our next collection, discover our favorite recipes and craft DIYs, and more!</p></div>
+            
+            <div id="mailing-list">
+    <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+      
+        <input type="hidden" id="contact_tags" name="contact[tags]" value="prospect,newsletter"/>
+    	<div class="input-row inline-input-button">
+          <input type="email" placeholder="Email address" class="required" value="" id="mailinglist_email" name="contact[email]" required />
+          <input type="submit" value="Subscribe" />
+        </div>
+        
+        <footer>
+          <div class="container my-5">
+            <div class="inline-row spaced">
+            <div class="inline-item left">
+              <!-- <div class="copy" style="margin-left: 40rem;">Copyright &copy; 2022 <a href="#" title=""><b>Vinay ChineseCenter</b></a>.</div> -->
+            </div>
+          </div>
+        </footer>
+      
+    </form>
+</div>
+          </div>
+        </div>
+
+        
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2 icon-heart">Vinay ChineseCenter</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <img src="/static/index.jpg" alt="fa-brands">
+          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+            <!-- <i class="fa-brands fa-facebook"></i> -->
+            
+            <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">Unseful Links</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-2 d-block">Servers</a></li>
+            <li><a href="#" class="py-2 d-block">Windos Hosting</a></li>
+            <li><a href="#" class="py-2 d-block">Cloud Hosting</a></li>
+            <li><a href="#" class="py-2 d-block">OS Servers</a></li>
+            <li><a href="#" class="py-2 d-block">Linux Servers</a></li>
+            <li><a href="#" class="py-2 d-block">Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+         <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Navigational</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-2 d-block">Home</a></li>
+            <li><a href="#" class="py-2 d-block">Domain</a></li>
+            <li><a href="#" class="py-2 d-block">Hosting</a></li>
+            <li><a href="#" class="py-2 d-block">About</a></li>
+            <li><a href="#" class="py-2 d-block">Blog</a></li>
+            <li><a href="#" class="py-2 d-block">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Office</h2>
+          <div class="block-23 mb-3">
+            <ul>
+              <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+              <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+              <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by Vinay
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- loader
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/jquery.timepicker.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script> -->
+
+{% endblock body %}
